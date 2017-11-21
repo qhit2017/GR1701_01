@@ -8,7 +8,10 @@ public class Test7 {
 
 			for (int g = i + 1; g <= 5; g++) {
 
-				System.out.println(i + "" + g);
+				if(i != j){
+					System.out.println(i + "" + g);
+				}
+				
 			}
 		}
 
