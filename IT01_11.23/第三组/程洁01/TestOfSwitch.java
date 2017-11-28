@@ -36,5 +36,6 @@ public class TestOfSwitch {
 			System.out.println("请输入正确的数字！");
 			break;
 		}
+		sc.close;
 	}
 }
