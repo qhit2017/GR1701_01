@@ -1,0 +1,18 @@
+1.数据库：数组结构来组织.存储和管理数据的建立在计算机存储设备上的仓库
+  优点：永久保存.便于管理数据，检查数据
+2.数据库对象：表Table 视图View 索引Index 图表Diagram 默认值Default 规则Rule 触发器Trigger 存储过程Procedure 用户User 序列Sequence
+3.数据库产品：Oracle ；SQL Server ；MySQL ；；DB2 ；Sybase ；Informix ；Access ；Foxpro ；PostgreSQL ；SQLLite 。
+4.安装步骤：解压运行开始安装》
+	全新的SQLServer独立安装》
+	同意协议》
+	重启电脑或修改注册表重启电脑》
+	选择全部功能》
+	实例配置》
+	服务账号选择NT Authority\Network Service》
+	验证模式修改Windows+SQL混合模式，设置密码》
+	修改网络配置（协议全部启用，SQL Server<SQLEXPRESS>启用）》
+	打开sqlserver连接》
+	服务器名称写：电脑名\SQLPRESS  身份证验证选择SqlServer 身份验证
+5.表：是一系列二维数组的集合，用来代表和存储数据对象间的关系，由行和列组成
+元组：即行，包括了若干列，表达有一定意义的信息组合
+属性：即列，由同类信息组成，表示一个属性
