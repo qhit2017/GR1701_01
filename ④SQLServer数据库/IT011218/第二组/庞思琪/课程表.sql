@@ -1,0 +1,27 @@
+create table tb_Course(
+Cno char(4) primary key,
+CName char(20),
+Cpno char(4),
+Ccredit smallint)
+insert into tb_Course(Cno,CName,Cpno,Ccredit )
+values('001','z','5',4)
+insert into tb_Course(Cno,CName,Cpno,Ccredit )
+values('002','m','2',5)
+insert into tb_Course(Cno,CName,Cpno,Ccredit )
+values('003','c','6',6)
+insert into tb_Course(Cno,CName,Cpno,Ccredit )
+values('004','e','4',5)
+insert into tb_Course(Cno,CName,Cpno,Ccredit )
+values('005','p','5',3)
+insert into tb_Course(Cno,CName,Cpno,Ccredit )
+values('006','g','3',4)
+insert into tb_Course(Cno,CName,Cpno,Ccredit )
+values('007','l','2',3)
+insert into tb_Course(Cno,CName,Cpno,Ccredit )
+values('008','h','2',4)
+insert into tb_Course(Cno,CName,Cpno,Ccredit )
+values('009','r','5',6)
+insert into tb_Course(Cno,CName,Cpno,Ccredit )
+values('0010','y','5',5)
+insert into tb_Course(Cno,CName,Cpno,Ccredit )
+values('0011','o','3',4)
