@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>table1</title>
+</head>
+<body>
+	<table border="0" bordercolor="#ff0000" bgcolor="#66ccff" width="100%" height="750px">
+
+		<tr><td width="100%" align="center" colspan="3" height="25%" " align="center"><a href="images/t1.jpg" title="点开看原图"><img src="images/t1_title.jpg" alt=""></a></td></tr>
+		<tr>
+			<td width="30%" height="5%" style="text-align: center;"><font color="#ff0000" size="+2">Merry Christmas</font></td>
+			<td width="70%" colspan="2" align="center">
+				<form action="http://www.baidu.com/baidu" target="_blank">
+				<table bgcolor="#66ccff"><tr><td>
+				<input name=tn type=hidden value=baidu>
+				<input type=text name=word size=60 placeholder="这里输入文字">
+				<input type="submit" value="搜索">
+				</td></tr></table>
+			</form></td>
+		</tr>
+		<tr>
+			<td width="30%" align="center" height="45%"><a href="http://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E5%9C%A3%E8%AF%9E%E8%8A%82%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C&step_word=&hs=2&pn=25&spn=0&di=204564505640&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=0&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=undefined&cs=485921196%2C304066213&os=1707848433%2C2058799271&simid=4274597995%2C825604422&adpicid=0&lpn=0&ln=1993&fr=&fmq=1515312501800_R&fm=&ic=undefined&s=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=&objurl=http%3A%2F%2Fwww.dabaoku.com%2Fsucaidatu%2Fshenghuo%2Fshengdanjie%2F2936-29.jpg&fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3B1wkw5h7_z%26e3Bv54AzdH3Ff7vwt1wp7AzdH3Ffijg2i75AzdH3Ffijg21wg3tjAzdH3FojkAzdH3Fdlnm-dl_z%26e3Bip4&gsm=0&rpstart=0&rpnum=0" title="点开看大图"><img src="images/t1_img1.jpg" width="446px" height="337.5px"></a></td>
+			<td width="40%" align="center"><a href="http://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E5%9C%A3%E8%AF%9E%E8%8A%82%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C&step_word=&hs=2&pn=29&spn=0&di=83792490760&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=0&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=undefined&cs=1385374894%2C377555572&os=925161078%2C464843058&simid=3409652406%2C374806102&adpicid=0&lpn=0&ln=1993&fr=&fmq=1515312501800_R&fm=&ic=undefined&s=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&ist=&jit=&cg=&oriquery=&objurl=http%3A%2F%2Fwww.dabaoku.com%2Fsucaidatu%2Fjieri%2Fshengdanjie%2F050bx5858.jpg&gsm=3c&rpstart=0&rpnum=0" title="点开看大图"><img src="images/t1_img3.jpg" width="596px" height="337.5px"></a></td>
+			<td width="30%" align="center"><a href="http://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E5%9C%A3%E8%AF%9E%E8%8A%82%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C&step_word=&hs=2&pn=23&spn=0&di=186284454290&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=0&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=undefined&cs=2847896785%2C2694620967&os=1645662998%2C2001385475&simid=2755065%2C684493367&adpicid=0&lpn=0&ln=1993&fr=&fmq=1515312501800_R&fm=&ic=undefined&s=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&ist=&jit=&cg=&oriquery=&objurl=http%3A%2F%2Fwww.dabaoku.com%2Fsucaidatu%2Fshenghuo%2Fshengdanjie%2F2624-26.jpg&gsm=3c&rpstart=0&rpnum=0" title="点开看大图"><img src="images/t1_img2.jpg" width="446px" height="337.5px"></a></td>
+		</tr>
+
+		<tr>
+			<td colspan="3" align="center" height="25%">
+				<pre>
+制作人：lyc
+制作日期：2018-01-07
+搜索引自<a href="http://www.baidu.com" title="百度搜索">百度搜索</a>
+当前时间：<div id="divT"></div>版权所有
+				</pre>
+			</td>
+		</tr>
+	</table>
+
+<script>
+function getCurDate()
+{
+ var d = new Date();
+ var week;
+ switch (d.getDay()){
+ case 1: week="星期一"; break;
+ case 2: week="星期二"; break;
+ case 3: week="星期三"; break;
+ case 4: week="星期四"; break;
+ case 5: week="星期五"; break;
+ case 6: week="星期六"; break;
+ default: week="星期天";
+ }
+ var years = d.getFullYear();
+ var month = add_zero(d.getMonth()+1);
+ var days = add_zero(d.getDate());
+ var hours = add_zero(d.getHours());
+ var minutes = add_zero(d.getMinutes());
+ var seconds=add_zero(d.getSeconds())
+ var ndate = years+"年"+month+"月"+days+"日 "+hours+":"+minutes+":"+seconds+" "+week;
+ divT.innerHTML= ndate;
+}
+function add_zero(temp)
+{
+ if(temp<10) return "0"+temp;
+ else return temp;
+}
+setInterval("getCurDate()",100);
+</script>
+</body>
+</html>
